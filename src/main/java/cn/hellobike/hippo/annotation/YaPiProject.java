@@ -11,5 +11,11 @@ public @interface YaPiProject {
      *
      * @return
      */
-    String value() default "";
+    String path() default "";
+
+    String catText() default "";
+
+    String catId() default "";
+
+    String service() default "";
 }

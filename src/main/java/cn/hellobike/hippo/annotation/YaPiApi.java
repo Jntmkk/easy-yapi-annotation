@@ -34,7 +34,7 @@ public @interface YaPiApi {
      *
      * @return
      */
-    String service();
+    String service() default "";
 
     /**
      * 接口标题

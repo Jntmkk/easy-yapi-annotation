@@ -14,7 +14,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class YaPiAnnotationEntity {
+public class YaPiApiEntity {
 	/**
 	 * 路径,唯一，根据路径反查询，是更新还是新建
 	 *
